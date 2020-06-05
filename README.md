@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BUNDLESYMPHOBIA
 
-## Available Scripts
+This project was generated with [create-react-app](https://github.com/facebook/create-react-app)
 
-In the project directory, you can run:
+The main feature of this web app is to find a NPM package, download its 3 last versions and last major version as well,
+and display sizes of these versions: initial, minify and after gzip into a bar chart.
 
-### `npm start`
+The back-end uses public NPM API: 
+    - https://www.npmjs.com/search/suggestions?q=${packageName} to get suggestions modules
+    - https://registry.npmjs.org/pacakge/version to get package details. For further information, see docs at [Registry NPM public API](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Not all NPM package is intent be to be used. See [Troubleshooting](#troubleshooting) before testing the app
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Install dependencies
 
-### `npm test`
+In root folder, run `npm install`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Development server - Running project
 
-### `npm run build`
+In root folder, run `npm run start` to start front-end dev server at (http://localhost:3000)
+To run the back-end, in root folder, run `PORT=5000 node server.js`. It will run an Express server at (http://localhost:5000). You can run/debug the server from VSCode Debug tab.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Build
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+In root folder, run `npm run build` to build front-end application. It will be placed into build folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Running unit tests
 
-### `npm run eject`
+In root folder, run `npm run test` to execute the unit tests. They use [Jest framework](https://jestjs.io/en/) and [Testing library](https://testing-library.com/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Running coverage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In root folder, run `npm run coverage` to execute tests coverage. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Troubleshooting
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The back-end is not working with all npm package. It uses [NPM registry public API](https://registry.npmjs.org) and for some package, the build cannot be done, due to (non exhaustive list): 
+    - NPM registry API send back a 401 status
+    - During the build, Webpack does not find some dependencies
+    - During the build, Webpack is not correctly configure to load specific files
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Packages that work so far: 
+    - React
+    - Redux
+    - free-style
+    - lodash,
+    - lens-core
+    - cron,
+    - feed

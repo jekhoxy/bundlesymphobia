@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Main page component Render Main page correctly 1`] = `
+<div
+  className="sc-fzpans dRFVDX"
+>
+  <div
+    className="sc-fzplWN fsfINk"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h3>
+      Find the cost of adding a npm package to your bundle
+    </h3>
+    <div
+      className="sc-AxhCb hpcrhp"
+    >
+      <form
+        className="sc-AxhUy lexsms"
+        onSubmit={[Function]}
+      >
+        <input
+          className="sc-AxgMl kkFbcO"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Find a package"
+          type="text"
+          value=""
+        />
+        <div
+          className="sc-AxirZ sc-AxiKw kPBqlq"
+          fontSize="inherit"
+          rotate={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </form>
+      <div
+        className="sc-AxheI deggKy"
+        open={false}
+      />
+    </div>
+  </div>
+</div>
+`;

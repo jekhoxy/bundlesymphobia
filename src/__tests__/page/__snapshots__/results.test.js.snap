@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Results page component Render Results page correctly 1`] = `
+<div
+  className="sc-fzpjYC eIqWBT"
+>
+  <div
+    className="sc-fznxsB bedIfi"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-fznJRM ekZfCM"
+      >
+        Bundle
+      </span>
+      <span
+        className="sc-fznWqX irfLQW"
+      >
+        Symphobia
+      </span>
+    </a>
+  </div>
+  <div
+    className="sc-fzoiQi jObhNe"
+  >
+    <div
+      className="sc-Axmtr YNZXL"
+    >
+      <form
+        className="sc-AxmLO eELEDK"
+        onSubmit={[Function]}
+      >
+        <input
+          className="sc-fzozJi cFFBon"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Find a package"
+          type="text"
+          value=""
+        />
+        <div
+          className="sc-AxjAm sc-AxirZ jIRUXK"
+          fontSize="inherit"
+          rotate={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </form>
+      <div
+        className="sc-fzoLsD ukgSn"
+        open={false}
+      />
+    </div>
+    <div
+      className="sc-fzqARJ iGoHmO"
+    >
+      <div
+        className="sc-fzoLag jheGXS"
+      >
+        <h2>
+          bundle size
+        </h2>
+        <div
+          className="sc-fzoXzr eLgUQV"
+        >
+          <div
+            className="sc-fznZeY kTNREm"
+          >
+            <div
+              className="sc-fzokOt jziyFM"
+            >
+              <label
+                className="sc-fzqNJr dRqxoz"
+              >
+                0
+              </label>
+               
+              <label
+                className="sc-fzoyAV guDyRQ"
+              >
+                kB
+              </label>
+            </div>
+            <h4
+              className="sc-fzqBZW bcJJTp"
+            >
+              initial
+            </h4>
+          </div>
+          <div
+            className="sc-fznZeY kTNREm"
+          >
+            <div
+              className="sc-fzokOt jziyFM"
+            >
+              <label
+                className="sc-fzqNJr dRqxoz"
+              >
+                0
+              </label>
+               
+              <label
+                className="sc-fzoyAV guDyRQ"
+              >
+                kB
+              </label>
+            </div>
+            <h4
+              className="sc-fzqBZW bcJJTp"
+            >
+              minified
+            </h4>
+          </div>
+          <div
+            className="sc-fznZeY kTNREm"
+          >
+            <div
+              className="sc-fzokOt jziyFM"
+            >
+              <label
+                className="sc-fzqNJr dRqxoz"
+              >
+                0
+              </label>
+               
+              <label
+                className="sc-fzoyAV guDyRQ"
+              >
+                kB
+              </label>
+            </div>
+            <h4
+              className="sc-fzqBZW bcJJTp"
+            >
+              gzipped
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-fzqNqU dloMmQ"
+        height="400px"
+        width="400px"
+      >
+        <div
+          style={
+            Object {
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

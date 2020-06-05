@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test app router should render main page with search input 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-fzpans dRFVDX"
+      >
+        <div
+          class="sc-fzplWN fsfINk"
+        >
+          <img
+            alt="logo"
+            class="App-logo"
+            src="logo.svg"
+          />
+          <h3>
+            Find the cost of adding a npm package to your bundle
+          </h3>
+          <div
+            class="sc-AxhCb hpcrhp"
+          >
+            <form
+              class="sc-AxhUy lexsms"
+            >
+              <input
+                class="sc-AxgMl kkFbcO"
+                placeholder="Find a package"
+                type="text"
+                value=""
+              />
+              <div
+                class="sc-AxirZ sc-AxiKw kPBqlq"
+                font-size="inherit"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                    fill-rule="evenodd"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </form>
+            <div
+              class="sc-AxheI deggKy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-fzpans dRFVDX"
+    >
+      <div
+        class="sc-fzplWN fsfINk"
+      >
+        <img
+          alt="logo"
+          class="App-logo"
+          src="logo.svg"
+        />
+        <h3>
+          Find the cost of adding a npm package to your bundle
+        </h3>
+        <div
+          class="sc-AxhCb hpcrhp"
+        >
+          <form
+            class="sc-AxhUy lexsms"
+          >
+            <input
+              class="sc-AxgMl kkFbcO"
+              placeholder="Find a package"
+              type="text"
+              value=""
+            />
+            <div
+              class="sc-AxirZ sc-AxiKw kPBqlq"
+              font-size="inherit"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </form>
+          <div
+            class="sc-AxheI deggKy"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test app router should render results page with bundle info div 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-fzpans dRFVDX"
+      >
+        <div
+          class="sc-fznJRM dqRTcy"
+        >
+          <a
+            href="/"
+          >
+            <span
+              class="sc-fznWqX kSyWGn"
+            >
+              Bundle
+            </span>
+            <span
+              class="sc-fzoiQi fPTFeg"
+            >
+              Symphobia
+            </span>
+          </a>
+        </div>
+        <div
+          class="sc-fzqARJ cJwDgo"
+        >
+          <div
+            class="sc-AxhCb hpcrhp"
+          >
+            <form
+              class="sc-AxhUy lexsms"
+            >
+              <input
+                class="sc-AxgMl kkFbcO"
+                placeholder="Find a package"
+                type="text"
+                value="react@1.0.0"
+              />
+              <div
+                class="sc-AxirZ sc-AxiKw kPBqlq"
+                font-size="inherit"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                    fill-rule="evenodd"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </form>
+            <div
+              class="sc-AxheI deggKy"
+            />
+          </div>
+          <div
+            class="sc-fzqNqU kpiwel"
+          >
+            <div
+              class="sc-fzpjYC dRqaCv"
+            >
+              <h2>
+                bundle size
+              </h2>
+              <div
+                class="sc-fznxsB kkKlep"
+              >
+                <div
+                  class="sc-fzqBZW lffGOc"
+                >
+                  <div
+                    class="sc-fzqNJr kyoOAI"
+                  >
+                    <label
+                      class="sc-fzoLag fbHOLF"
+                    >
+                      0
+                    </label>
+                     
+                    <label
+                      class="sc-fzoXzr fJYbGO"
+                    >
+                      kB
+                    </label>
+                  </div>
+                  <h4
+                    class="sc-fzoyAV lbcKJG"
+                  >
+                    initial
+                  </h4>
+                </div>
+                <div
+                  class="sc-fzqBZW lffGOc"
+                >
+                  <div
+                    class="sc-fzqNJr kyoOAI"
+                  >
+                    <label
+                      class="sc-fzoLag fbHOLF"
+                    >
+                      0
+                    </label>
+                     
+                    <label
+                      class="sc-fzoXzr fJYbGO"
+                    >
+                      kB
+                    </label>
+                  </div>
+                  <h4
+                    class="sc-fzoyAV lbcKJG"
+                  >
+                    minified
+                  </h4>
+                </div>
+                <div
+                  class="sc-fzqBZW lffGOc"
+                >
+                  <div
+                    class="sc-fzqNJr kyoOAI"
+                  >
+                    <label
+                      class="sc-fzoLag fbHOLF"
+                    >
+                      0
+                    </label>
+                     
+                    <label
+                      class="sc-fzoXzr fJYbGO"
+                    >
+                      kB
+                    </label>
+                  </div>
+                  <h4
+                    class="sc-fzoyAV lbcKJG"
+                  >
+                    gzipped
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-fzoyTs hpcNUO"
+              height="400px"
+              width="400px"
+            >
+              <div
+                style="width: 100%; height: 100%;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-fzpans dRFVDX"
+    >
+      <div
+        class="sc-fznJRM dqRTcy"
+      >
+        <a
+          href="/"
+        >
+          <span
+            class="sc-fznWqX kSyWGn"
+          >
+            Bundle
+          </span>
+          <span
+            class="sc-fzoiQi fPTFeg"
+          >
+            Symphobia
+          </span>
+        </a>
+      </div>
+      <div
+        class="sc-fzqARJ cJwDgo"
+      >
+        <div
+          class="sc-AxhCb hpcrhp"
+        >
+          <form
+            class="sc-AxhUy lexsms"
+          >
+            <input
+              class="sc-AxgMl kkFbcO"
+              placeholder="Find a package"
+              type="text"
+              value="react@1.0.0"
+            />
+            <div
+              class="sc-AxirZ sc-AxiKw kPBqlq"
+              font-size="inherit"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </form>
+          <div
+            class="sc-AxheI deggKy"
+          />
+        </div>
+        <div
+          class="sc-fzqNqU kpiwel"
+        >
+          <div
+            class="sc-fzpjYC dRqaCv"
+          >
+            <h2>
+              bundle size
+            </h2>
+            <div
+              class="sc-fznxsB kkKlep"
+            >
+              <div
+                class="sc-fzqBZW lffGOc"
+              >
+                <div
+                  class="sc-fzqNJr kyoOAI"
+                >
+                  <label
+                    class="sc-fzoLag fbHOLF"
+                  >
+                    0
+                  </label>
+                   
+                  <label
+                    class="sc-fzoXzr fJYbGO"
+                  >
+                    kB
+                  </label>
+                </div>
+                <h4
+                  class="sc-fzoyAV lbcKJG"
+                >
+                  initial
+                </h4>
+              </div>
+              <div
+                class="sc-fzqBZW lffGOc"
+              >
+                <div
+                  class="sc-fzqNJr kyoOAI"
+                >
+                  <label
+                    class="sc-fzoLag fbHOLF"
+                  >
+                    0
+                  </label>
+                   
+                  <label
+                    class="sc-fzoXzr fJYbGO"
+                  >
+                    kB
+                  </label>
+                </div>
+                <h4
+                  class="sc-fzoyAV lbcKJG"
+                >
+                  minified
+                </h4>
+              </div>
+              <div
+                class="sc-fzqBZW lffGOc"
+              >
+                <div
+                  class="sc-fzqNJr kyoOAI"
+                >
+                  <label
+                    class="sc-fzoLag fbHOLF"
+                  >
+                    0
+                  </label>
+                   
+                  <label
+                    class="sc-fzoXzr fJYbGO"
+                  >
+                    kB
+                  </label>
+                </div>
+                <h4
+                  class="sc-fzoyAV lbcKJG"
+                >
+                  gzipped
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-fzoyTs hpcNUO"
+            height="400px"
+            width="400px"
+          >
+            <div
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
