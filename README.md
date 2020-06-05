@@ -18,9 +18,13 @@ Application has client-server architecture.
 Back-end side is in charge of getting bundle suggestions and details from npmjs API. 
 The purpose is to install the given bundle, build it with webpack and read the initial size in the disk of the result file. Then, it minifies and gzippes the file to get size. At the end of the process, it aggregates info to get sizes of the bundle (versions, initial, minify and gzip size).
 
+Back-end code is in server.js
+
 Front-end side comunicates with back-end through Rest API. Front has 2 pages:
 - Main: first page displayed with an input to search package by name
 - Results: Page to display bundle details (sizes and a bar charts). Search input is present as well to seek another bundle
+
+Front-end code is under src/client package.
 
 # Install dependencies
 
@@ -43,6 +47,8 @@ After building the project, run `npm run prod` to run in production mode. It wil
 # Running unit tests
 
 In root folder, run `npm run test` to execute the unit tests. They use [Jest framework](https://jestjs.io/en/) and [Testing library](https://testing-library.com/).
+
+Tests are located under src/\__tests\__
 
 # Running coverage
 
