@@ -6,7 +6,7 @@ The main feature of this web app is to find a NPM package, download its 3 last v
 and display sizes of these versions: initial, minify and after gzip into a bar chart.
 
 The back-end uses public NPM API: 
-- https://www.npmjs.com/search/suggestions?q=${packageName} to get suggestions modules
+- https://www.npmjs.com/search/suggestions?q=packageName to get suggestions modules
 - https://registry.npmjs.org/pacakge/version to get package details. For further information, see docs at [Registry NPM public API](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
 
 Not all NPM package is intent be to be used. See [Troubleshooting](#troubleshooting) before testing the app
@@ -24,6 +24,10 @@ To run the back-end, in root folder, run `PORT=5000 node server.js`. It will run
 # Build
 
 In root folder, run `npm run build` to build front-end application. It will be placed into build folder.
+
+# Production
+
+After building the project, run `npm run prod` to run in production mode. It will run the back-end at (http://localhost:5000) and serve the build folder as public folder.
 
 # Running unit tests
 
