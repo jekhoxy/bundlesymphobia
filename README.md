@@ -9,7 +9,7 @@ The back-end uses public NPM API:
 - https://www.npmjs.com/search/suggestions?q=packageName to get suggestions modules
 - https://registry.npmjs.org/pacakge/version to get package details. For further information, see docs at [Registry NPM public API](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
 
-Not all NPM package is intent be to be used. See [Troubleshooting](#troubleshooting) before testing the app
+Not all NPM package is intent to be used. See [Troubleshooting](#troubleshooting) before testing the app
 
 # Architecture
 
