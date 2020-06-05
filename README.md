@@ -11,6 +11,17 @@ The back-end uses public NPM API:
 
 Not all NPM package is intent be to be used. See [Troubleshooting](#troubleshooting) before testing the app
 
+# Architecture
+
+Application has client-server architecture.
+
+Back-end side is in charge of getting bundle suggestions and details from npmjs API. 
+The purpose is to install the given bundle, build it with webpack and read the initial size in the disk of the result file. Then, it minifies and gzippes the file to get size. At the end of the process, it aggregates info to get sizes of the bundle (versions, initial, minify and gzip size).
+
+Front-end side comunicates with back-end through Rest API. Front has 2 pages:
+- Main: first page displayed with an input to search package by name
+- Results: Page to display bundle details (sizes and a bar charts). Search input is present as well to seek another bundle
+
 # Install dependencies
 
 In root folder, run `npm install`
