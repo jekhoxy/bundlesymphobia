@@ -1,12 +1,6 @@
 /**
- * Format the given Byte to kByte with 1 decimal
+ * Format the given Byte to kByte with n decimal (n = 1 by default)
  */
-export function formatValue(octets) {
-  let result = octets / 1024;
-  if (result < 1) {
-    result = octets;
-  } else {
-    result = Number(result.toFixed(1));
-  }
-  return result;
+export function formatValue(octets, decimal = 1) {
+  return Number((octets / 1024).toFixed(decimal));
 }
